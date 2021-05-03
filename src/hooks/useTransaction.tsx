@@ -10,13 +10,6 @@ interface Transactions {
     createdAt: string;
 }
 
-{/*interface TransactionInput {
-    title: string;
-    amount: number;
-    type: string;
-    category: string;
-}*/}
-
 type TransactionInput = Omit<Transactions, 'id' | 'createdAt'>;
 // Pick é o contrario de Transactions
 

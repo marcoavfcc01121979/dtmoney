@@ -5,8 +5,7 @@ import outcomeImg from '../../assets/outcome.svg';
 
 import closeImg from '../../assets/close.svg';
 import { Container, RadioBox, TransactionTypeContainer } from './styles';
-import { FormEvent, useContext, useState } from 'react';
-import { api } from '../../services/api';
+import { FormEvent, useState } from 'react';
 import { useTransactions } from '../../hooks/useTransaction';
 
 
